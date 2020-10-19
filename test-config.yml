@@ -44,8 +44,8 @@ hystrix:
           thread:
             timeoutInMilliseconds: 20000
       circuitBreaker:
-        requestVolumeThreshold: 8
-#        sleepWindowInMilliseconds : 8000   时间
+        requestVolumeThreshold: 5
+#        sleepWindowInMilliseconds : 5000   时间
 
 #  threadpool:
 #    default:
