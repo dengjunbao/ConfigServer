@@ -22,9 +22,9 @@ eureka:
     leaseExpirationDurationInSeconds: 30 #Eureka服务器在接收到实例的最后一次发出的心跳后，需要等待多久才可以将此实例删除，默认为90秒
 
 spring:
+  profiles: test
   application:
     name: client-user-test #此实例注册到eureka服务端的name
-    profiles: test
 
 feign:
   hystrix:
